@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility</title>
+    <style>
+        /*
+        Skip to Content
+        1. html link that says skip to content
+        2. need an anchor
+        3. need to style my skip to content 
+        4. hide it and show it (position)
+        */
+        #skip {/*pound sign means looking for a tag with an id of skip */
+            position: absolute;
+            left: -999px;
+            background-color: orange;
+            padding: 5px;
+        }
+        #skip:focus {
+            left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <!--tab index is an attribute of an html tag it changes the order the tab key selects links on the page-->
+        <a href="#content" id="skip">Skip to Content</a>
+        <a href="http://www.twitter.com" tabindex="4">Twitter</a>
+        <a href="index.html" tabindex="1">Home</a>
+        <a href="skills.html" tabindex="2">Skills</a>
+        <a href="contact.html" tabindex="3">Contact</a>
+    </nav>
+    <h1>Accessibility</h1> <!--can only have one h1 per page, h1 is my main heading, heading tags are about heirarchy-->
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint quidem voluptatum accusantium sed vitae odio labore facilis? Optio praesentium nostrum, numquam sapiente voluptate eius maiores quod amet facilis quidem magnam.</p>
+    <h2>Tab Order</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ea odit modi voluptate blanditiis nobis. Iusto officiis perferendis minus neque exercitationem, rerum ut voluptates eaque doloribus, reiciendis illum nemo odit!</p>
+    <h2>Semantic Tags</h2>
+        <h3>aside tag</h3>
+        <h3 id="content">article tag</h3>
+
+</body>
+</html>
