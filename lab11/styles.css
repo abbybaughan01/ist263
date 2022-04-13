@@ -29,7 +29,7 @@ nav {margin-bottom: 30px;}
     left: -999px;
     background-color: blue;
     padding: 5px;
-}
+} 
 #skip:focus {
     left: 10px;
 }
