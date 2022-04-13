@@ -3,8 +3,8 @@ body {background-color: #EDEBE6;}
 p {color: #000000;}
 h1, h2 {color: #355C7D;}
 .special {background-color: #C5D4EB;}
-nav {background-color: #ffffff;}
-nav a {color: #4D004D;}
+nav {background-color: #4D004D;}
+nav a {color: #ffffff;}
 nav a:hover {background-color: #C1CDCD;}
 nav {padding: 20px;}
 nav {margin-bottom: 30px;}
@@ -37,5 +37,8 @@ nav {margin-bottom: 30px;}
     nav a {display: block; padding: 3px;}
     nav span {display: none;} 
 }
+
+
+
 
 
