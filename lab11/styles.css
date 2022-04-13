@@ -28,7 +28,7 @@ nav {margin-bottom: 30px;}
     position: absolute;
     left: -999px;
     background-color: blue;
-    padding: 5px;
+    padding: 6px;
 } 
 #skip:focus {
     left: 10px;
