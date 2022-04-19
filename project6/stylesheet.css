@@ -5,7 +5,7 @@ p {color: #000000; font-size: 1.5em;}
 h1, h2 {color: #355C7D;}
 h4 {font-size: 1.5em;}
 .special {background-color: #C5D4EB;}
-nav {background-color: #414bcb;}
+nav {background-color: #913f5f;}
 nav a {color: #ffffff; font-size: 20px;}
 nav a:hover {background-color:lightslategray;}
 nav span {color:#ffffff;}
@@ -13,3 +13,4 @@ nav {padding: 20px;}
 nav {margin-bottom: 30px;}
 hr {border-width: 2.5px;}
 li p {max-width: 800px;}
+iframe {width: 800px; height: 500px;}
