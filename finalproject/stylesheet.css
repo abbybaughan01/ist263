@@ -1,0 +1,73 @@
+body {font-family: 'Garamond', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding: 20px;}
+body {background-color: #f2f2f2;}
+.homepage {background-image: url(microphone.jpg);}
+.backgroundimage {max-width: 100%;}
+.animate-character
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #8959bb 29%,
+    #d43d6f 67%,
+    #e3de57 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 100px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+body, p, h1, ol {padding: 30px;}
+p {color: #000000; font-size: 1.5em;}
+h1, h2 {color: #355C7D;}
+h4 {font-size: 1.5em;}
+.special {background-color: #C5D4EB;}
+nav {background-color: #913f5f;}
+nav a {color: #ffffff; font-size: 20px;}
+nav a:hover {background-color:lightslategray;}
+nav span {color:#ffffff;}
+nav {padding: 20px;}
+nav {margin-bottom: 30px;}
+.navbox {display: flex; justify-content: space-between;}
+hr {border-width: 2.5px;}
+li, p {max-width: 800px;}
+.responsive {
+    width: 100%;
+    max-width: 800px;
+}
+iframe {max-width: 800px; height: 500px;}
+.flexbox1 {display: flex;}
+.flexbox2 {display: flex;}
+.flexbox3 {display: flex;}
+.flexbox4 {display: flex;}
+.flexbox5 {display: flex;}
+.flexbox6 {display: flex;}
+.flexbox7 {display: flex;}
+.flexbox8 {display: flex;}
+.flexbox9 {display: flex;}
+.flexbox10 {display: flex;}
+@media only screen and (max-width: 800px) {
+    .flexbox1 {flex-wrap: wrap;}
+    .flexbox2 {flex-wrap: wrap;}
+    .flexbox3 {flex-wrap: wrap;}
+    .flexbox4 {flex-wrap: wrap;}
+    .flexbox5 {flex-wrap: wrap;}
+    .flexbox6 {flex-wrap: wrap;}
+    .flexbox7 {flex-wrap: wrap;}
+    .flexbox8 {flex-wrap: wrap;}
+    .flexbox9 {flex-wrap: wrap;}
+    .flexbox10 {flex-wrap: wrap;}
+}
